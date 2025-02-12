@@ -1,0 +1,67 @@
+*,
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #2d3342;
+}
+
+
+
+.cotainer{
+
+    display: flex;
+    justify-content: center;
+    width: 100vh;
+}
+
+h1{
+    
+
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    color: white;
+    background-color: #689f99;
+}
+
+.text{
+    color:white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.text-sosmed{
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.animasi{
+    transition: transform 0.3s ease-in-out;
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+    margin: 30px;
+}
+
+.animasi:hover{
+    transform: scale(1.1);
+}
+
+h3{
+    font-size: 20px;
+    color: white;
+
+}
+
+
+

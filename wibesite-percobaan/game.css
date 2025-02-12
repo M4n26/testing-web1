@@ -1,0 +1,60 @@
+*,
+html{
+    margin: auto;
+    padding: auto;
+}
+
+
+body{
+    background-color: #2d3343;
+
+}
+
+h2{
+    background-color: #333b50;
+    border: black;
+    color: white;
+    text-align: center;
+}
+
+img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #689f99;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    color: white;
+}
+
+.home-sosmed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-game{
+    display: none;
+    list-style-type: none;
+}
+
+.text{
+    color: white;
+    text-decoration: none;
+}
+
+.text-sosmed{
+    color: white;
+    text-decoration: none;
+}
